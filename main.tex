@@ -45,17 +45,18 @@
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{1.0in}
+\setlength{\footskip}{4.08003pt}
 
 \urlstyle{same}
 
-\raggedbottom
-\raggedright
+\raggedbottom{}
+\raggedright{}
 \setlength{\tabcolsep}{0in}
 
 % Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -112,8 +113,8 @@
 % \end{tabular*}
 
 \begin{center}
-    \textbf{\Huge \scshape Maiko André Antunes de Sousa} \\ \vspace{1pt}
-    \small (38)99986-7163 $|$ \href{mailto:x@x.com}{\underline{maikosousa.tech@gmail.com}} $|$ 
+    \textbf{\Huge Maiko André Antunes de Sousa} \\ \vspace{1pt}
+    \small (38)99986-7163 $|$ \href{mailto:x@x.com}{\underline{maikosousa.tech@gmail.com}} $|$ % chktex 8
     \href{https://www.linkedin.com/in/maiko-andre/}{\underline{linkedin.com/in/maiko-andre/}} $|$
     \href{https://github.com/Maikoandre}{\underline{github.com/Maikoandre}}
 \end{center}
@@ -130,44 +131,38 @@
 
 %-----------EDUCATION-----------
 \section{Educação}
-  \resumeSubHeadingListStart
- \resumeSubheading
-      {Instituto Federal de Educação, Ciência e Tecnologia Baiano}{Guanambi, BA}
-      {Tecnólogo em Análise e Desenvolvimento de Sistemas} {Março 2024 -- Presente}
-  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart{}
+  \resumeSubheading{Instituto Federal de Educação, Ciência e Tecnologia Baiano}{Guanambi, BA}
+      {Tecnólogo em Análise e Desenvolvimento de Sistemas}{Março 2024--Presente}
+  \resumeSubHeadingListEnd{}
 
 %-----------PROJECTS-----------
 \section{Projetos}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Robótica nas Praças} $|$ \emph{}}{Julho 2025 - Presente}
-          \resumeItemListStart
+    \resumeSubHeadingListStart{}
+      \resumeProjectHeading{\textbf{Robótica nas Praças} $|$ \emph{}}{Julho 2025--Presente}
+          \resumeItemListStart{}
             \resumeItem{O nosso Projeto de Robótica nas Praças consiste na construção e programação de robôs utilizando kits de robótica semelhantes a legos, como o LEGO Mindstorms}
             \resumeItem{Participamos em eventos como feiras de ciência e atividades escolares, onde apresentamos os robôs que montamos e programamos. Cada projeto é desenvolvido pela nossa equipa, desde a montagem das peças até à criação do código que permite ao robô mover-se}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Multi-PDF Chat} $|$ \emph{Python, Streamlit, LangChain, Hugging Face, ChromaDB, Git}}{Outubro 2025}
-          \resumeItemListStart
+          \resumeItemListEnd{}
+      \resumeProjectHeading{\textbf{Multi-PDF Chat} $|$ \emph{Python, Streamlit, LangChain, Hugging Face, ChromaDB, Git}}{Outubro 2025}
+          \resumeItemListStart{}
             \resumeItem{Desenvolvi uma aplicação web para interação conversacional com documentos PDF, permitindo busca inteligente e respostas baseadas no conteúdo dos arquivos}
             \resumeItem{Implementei processamento automático de PDFs com divisão de textos em chunks para melhor indexação e recuperação de informações}
             \resumeItem{Desenvolvi um pipeline de perguntas e respostas utilizando LangChain, integrando modelo de linguagem, retriever e memória de conversação}
             \resumeItem{Construí a interface interativa com Streamlit para upload de arquivos, chat em tempo real e gerenciamento do estado da conversa}
-          \resumeItemListEnd
-        \resumeProjectHeading
-          {\textbf{Análise de Dados do SUS (SIH)} $|$ \emph{Python, Streamlit, Pandas, Plotly, Git}}{Outubro 2025}
-          \resumeItemListStart
-            \resumeItem{Projeto de Análise Exploratória de Dados (EDA) das internações hospitalares do Sistema de Informações Hospitalares (SIH) do DataSUS, com foco no processamento, limpeza e extração de insights a partir de dados brutos em formato .csv.}
+          \resumeItemListEnd{}
+      \resumeProjectHeading{\textbf{Análise de Dados do SUS (SIH)} $|$ \emph{Python, Streamlit, Pandas, Plotly, Git}}{Outubro 2025}
+          \resumeItemListStart{}
+            \resumeItem{Projeto de Análise Exploratória de Dados (EDA) das internações hospitalares do Sistema de Informações Hospitalares (SIH) do DataSUS, com foco no processamento, limpeza e extração de insights a partir de dados brutos em formato \texttt{.csv}.}
             \resumeItem{Criei visualizações analíticas com Plotly, Seaborn e Matplotlib, incluindo análises por sexo, faixa etária, raça/cor, capítulos do CID-10 e rankings de municípios e hospitais (CNES) por volume, mortalidade, permanência e uso de UTI.}
-            \resumeItemListEnd
-        \resumeProjectHeading
-          {\textbf{MeetFlow} $|$ \emph{Python, Django, MySQL, Docker, JavaScript, Git}}{Novembro 2025}
-          \resumeItemListStart
+          \resumeItemListEnd{}
+      \resumeProjectHeading{\textbf{MeetFlow} $|$ \emph{Python, Django, MySQL, Docker, JavaScript, Git}}{Novembro 2025}
+          \resumeItemListStart{}
             \resumeItem{Desenvolvido como Trabalho Final da disciplina de Programação para Web I (4º período – ADS), com foco na construção de uma aplicação web completa utilizando Django e exclusivamente Function-Based Views (FBV).}
             \resumeItem{Implementamos sistema completo de gerenciamento do ciclo de vida de eventos, incluindo criação, aprovação, publicação, inscrições, controle de presença e geração de relatórios.}
             \resumeItem{Desenvolvemos 5 módulos CRUD completos (Eventos, Usuários, Inscrições, Presenças e Relatórios), com autenticação (Login/Logout/Cadastro) e controle de acesso baseado em permissões e grupos (Administrador, Organizador e Participante).}
-            
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
+          \resumeItemListEnd{}
+    \resumeSubHeadingListEnd{}
 
 
 \begin{comment}
