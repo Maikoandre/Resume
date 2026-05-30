@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1780177878.45715 "/home/maiko/Projects/Resume/main.tex" "build/main.pdf" "main" 1780177878.92712 0
-  "/home/maiko/Projects/Resume/main.tex" 1780177878.26213 8578 d4db442dfd9c0dd450d1e509d5896ce1 ""
+["pdflatex"] 1780178381.34952 "/home/maiko/Projects/Resume/main.tex" "build/main.pdf" "main" 1780178382.03054 0
+  "/home/maiko/Projects/Resume/main.tex" 1780178381.07081 8592 b4f79441365a80080d2b4c7334687d15 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1775415801 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1775415801 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1775415801 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -82,9 +82,9 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1775415801 43569 fd570f2fa160877d211e859f687312ba ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1779136463 5385779 47c0c393a77fd4a098bacfd57d66b88a ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1779136409 2329403 ccc8629b393885aa76ce583be5cdf44c ""
-  "build/build/main.aux" 1780177878.87206 850 68c92264ff0b80dc65ef6254f3fa5ac6 "pdflatex"
-  "build/build/main.out" 1780177878.87335 639 fc73539ccd8ebae0ead09ec5c7dd30cd "pdflatex"
-  "main.tex" 1780177878.26213 8578 d4db442dfd9c0dd450d1e509d5896ce1 ""
+  "build/build/main.aux" 1780178381.90158 850 68c92264ff0b80dc65ef6254f3fa5ac6 "pdflatex"
+  "build/build/main.out" 1780178381.90158 639 fc73539ccd8ebae0ead09ec5c7dd30cd "pdflatex"
+  "main.tex" 1780178381.07081 8592 b4f79441365a80080d2b4c7334687d15 ""
   (generated)
   "build/build/main.aux"
   "build/build/main.log"
