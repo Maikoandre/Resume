@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.5.18)  30 MAY 2026 18:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.5.18)  30 MAY 2026 18:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -289,11 +289,11 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 117
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 136.
+(Font)              <10.95> on input line 141.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 136.
+(Font)              <8> on input line 141.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 136.
+(Font)              <6> on input line 141.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (build/build/main.aux)
@@ -302,21 +302,21 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 00AC8AE2CAF60C0E23222198ED4EB9B9;498.
+(rerunfilecheck)             Checksum: FC73539CCD8EBAE0EAD09EC5C7DD30CD;639.
  ) 
 Here is how much of TeX's memory you used:
- 10882 strings out of 469495
- 169790 string characters out of 5470098
- 623260 words of memory out of 5000000
- 39424 multiletter control sequences out of 15000+600000
+ 10884 strings out of 469495
+ 169810 string characters out of 5470098
+ 621260 words of memory out of 5000000
+ 39425 multiletter control sequences out of 15000+600000
  633481 words of font info for 63 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  75i,11n,79p,358b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on build/build/main.pdf (1 page, 113872 bytes).
+Output written on build/build/main.pdf (1 page, 114220 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 79 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
