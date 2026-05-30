@@ -124,8 +124,8 @@
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Linguagens}{: Python, SQL, DAX} \\
-     \textbf{Ferramentas}{: Power BI, Excel, MySQL} \\
-     \textbf{Bibliotecas}{: Pandas, NumPy, Matplotlib, Seaborn, Streamlit, LangChain}
+     \textbf{Ferramentas}{: Power BI, Excel, MySQL, PostgreSQL} \\
+     \textbf{Bibliotecas}{: Pandas, Agno, Matplotlib, Seaborn, Streamlit, Plotly, Reportlab}
     }}
  \end{itemize}
 
@@ -136,81 +136,55 @@
       {Tecnólogo em Análise e Desenvolvimento de Sistemas}{Março 2024--Presente}
   \resumeSubHeadingListEnd{}
 
+%-----------EXPERIENCE-----------
+\section{Experiência Profissional}
+  \resumeSubHeadingListStart{}
+
+    \resumeSubheading{Analista de Automação}{Abril 2026 --- Maio 2026}
+      {Prisma Publicidade}{Guanambi, BA}
+      \resumeItemListStart{}
+        \resumeItem{Desenvolvi uma automação com Inteligência Artificial para monitorar, classificar e auditar interações via WhatsApp entre clientes e a equipe de atendimento.}
+        \resumeItem{Desenvolvi um fluxo automatizado no n8n para atendimento médico via WhatsApp, incluindo roteamento inteligente e persistência de histórico em um banco de dados.}
+      \resumeItemListEnd{}
+    \resumeSubheading{Desenvolvedor de Software}{Outubro 2025 --- Novembro 2025}
+      {Instituto Federal de Educação, Ciência e Tecnologia Baiano}{Guanambi, BA}
+      \resumeItemListStart{}
+        \resumeItem{Desenvolvi um sistema moderno de gestão para Atendimento Educacional Especializado (AEE), focado em alta densidade de informação e usabilidade para profissionais de educação especial.}
+        \resumeItem{Criação de módulos integrados para o controle da equipe docente (professores e especialistas) e gestão de acervo de materiais pedagógicos categorizados.}
+        \resumeItem{Estruturação de perfis detalhados para os alunos, permitindo o acompanhamento do histórico completo de atendimentos e dados acadêmicos com um backend escalável em Django.}
+      \resumeItemListEnd{}
+  \resumeSubHeadingListEnd{}
+
 %-----------PROJECTS-----------
 \section{Projetos}
     \resumeSubHeadingListStart{}
-      \resumeProjectHeading{\textbf{Robótica nas Praças} $|$ \emph{}}{Julho 2025--Presente}
-          \resumeItemListStart{}
-            \resumeItem{O nosso Projeto de Robótica nas Praças consiste na construção e programação de robôs utilizando kits de robótica semelhantes a legos, como o LEGO Mindstorms}
-            \resumeItem{Participamos em eventos como feiras de ciência e atividades escolares, onde apresentamos os robôs que montamos e programamos. Cada projeto é desenvolvido pela nossa equipa, desde a montagem das peças até à criação do código que permite ao robô mover-se}
-          \resumeItemListEnd{}
-      \resumeProjectHeading{\textbf{Multi-PDF Chat} $|$ \emph{Python, Streamlit, LangChain, Hugging Face, ChromaDB, Git}}{Outubro 2025}
-          \resumeItemListStart{}
-            \resumeItem{Desenvolvi uma aplicação web para interação conversacional com documentos PDF, permitindo busca inteligente e respostas baseadas no conteúdo dos arquivos}
-            \resumeItem{Implementei processamento automático de PDFs com divisão de textos em chunks para melhor indexação e recuperação de informações}
-            \resumeItem{Desenvolvi um pipeline de perguntas e respostas utilizando LangChain, integrando modelo de linguagem, retriever e memória de conversação}
-            \resumeItem{Construí a interface interativa com Streamlit para upload de arquivos, chat em tempo real e gerenciamento do estado da conversa}
-          \resumeItemListEnd{}
       \resumeProjectHeading{\textbf{Análise de Dados do SUS (SIH)} $|$ \emph{Python, Streamlit, Pandas, Plotly, Git}}{Outubro 2025}
           \resumeItemListStart{}
             \resumeItem{Projeto de Análise Exploratória de Dados (EDA) das internações hospitalares do Sistema de Informações Hospitalares (SIH) do DataSUS, com foco no processamento, limpeza e extração de insights a partir de dados brutos em formato \texttt{.csv}.}
             \resumeItem{Criei visualizações analíticas com Plotly, Seaborn e Matplotlib, incluindo análises por sexo, faixa etária, raça/cor, capítulos do CID-10 e rankings de municípios e hospitais (CNES) por volume, mortalidade, permanência e uso de UTI.}
           \resumeItemListEnd{}
-      \resumeProjectHeading{\textbf{MeetFlow} $|$ \emph{Python, Django, MySQL, Docker, JavaScript, Git}}{Novembro 2025}
+      \resumeProjectHeading{\textbf{Agente de Análise de Dados} $|$ \emph{Python, Agno, ChromaDB, LLMs, Gmail API, Reportlab}}{Maio 2026}
+      \resumeItemListStart{}
+        \resumeItem{Desenvolvimento de um agente autônomo para análise de datasets em CSV, empregando LLMs e banco de dados vetorial (ChromaDB) para extração de contexto e insights por meio de agregações SQL.}
+        \resumeItem{Automação completa do fluxo de resultados, englobando a geração de relatórios analíticos em PDF e o disparo automático de emails com anexos via API do Gmail.}
+      \resumeItemListEnd{}
+
+      \resumeProjectHeading{\textbf{Dashboard SAC (Atendimento ao Consumidor)} $|$ \emph{Power BI, DAX, Power Query, Star Schema}}{Janeiro 2026}
+        \resumeItemListStart{}
+          \resumeItem{Desenvolvimento de dashboard em Power BI para análise de métricas de atendimento, performance da equipe de suporte e perfil dos usuários.}
+          \resumeItem{Construção de ETL com Power Query (Linguagem M) a partir de planilhas Excel, modelagem de dados em Star Schema e criação de medidas DAX para cálculo de tempo de atendimento, médias de retorno e taxa de cancelamentos.}
+        \resumeItemListEnd{}
+      \resumeProjectHeading{\textbf{Dashboard de Vendas Corporativo} $|$ \emph{Power BI, DAX, Power Query, Star Schema}}{Janeiro 2026}
           \resumeItemListStart{}
-            \resumeItem{Desenvolvido como Trabalho Final da disciplina de Programação para Web I (4º período – ADS), com foco na construção de uma aplicação web completa utilizando Django e exclusivamente Function-Based Views (FBV).}
-            \resumeItem{Implementamos sistema completo de gerenciamento do ciclo de vida de eventos, incluindo criação, aprovação, publicação, inscrições, controle de presença e geração de relatórios.}
-            \resumeItem{Desenvolvemos 5 módulos CRUD completos (Eventos, Usuários, Inscrições, Presenças e Relatórios), com autenticação (Login/Logout/Cadastro) e controle de acesso baseado em permissões e grupos (Administrador, Organizador e Participante).}
+            \resumeItem{Desenvolvimento de dashboard de inteligência comercial no Power BI para monitoramento de KPIs cruciais como faturamento total, lucro líquido, volume de vendas e número de clientes únicos.}
+            \resumeItem{Construção de visuais para análise de tendências temporais e sazonalidade mensal, incluindo rankings de desempenho por marca e mapeamento interativo de vendas por continente.}
           \resumeItemListEnd{}
     \resumeSubHeadingListEnd{}
 
 
 \begin{comment}
-%-----------EXPERIENCE-----------
-\section{Experience}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Undergraduate Research Assistant}{June 2020 -- Present}
-      {Texas A\&M University}{College Station, TX}
-      \resumeItemListStart
-        \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
-        \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
-        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
-      \resumeItemListEnd
-      
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
-
-    \resumeSubheading
-      {Information Technology Support Specialist}{Sep. 2018 -- Present}
-      {Southwestern University}{Georgetown, TX}
-      \resumeItemListStart
-        \resumeItem{Communicate with managers to set up campus computers used on campus}
-        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
-        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
-    \resumeItemListEnd
-
-    \resumeSubheading
-      {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
-      {Southwestern University}{Georgetown, TX}
-      \resumeItemListStart
-        \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
-        \resumeItem{Developed a game in Java to test the generated dungeons}
-        \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
-        \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
-        \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
-        \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
 \end{comment}
+
+
 
 \end{document}
