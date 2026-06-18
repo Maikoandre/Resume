@@ -1,0 +1,207 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\setlength{\footskip}{4.08003pt}
+
+\urlstyle{same}
+
+\raggedbottom{}
+\raggedright{}
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge Maiko André Antunes de Sousa} \\ \vspace{1pt}
+    \small (38)99986-7163 $|$ \href{mailto:x@x.com}{\underline{maikosousa.tech@gmail.com}} $|$ % chktex 8
+    \href{https://www.linkedin.com/in/maiko-andre/}{\underline{linkedin.com/in/maiko-andre/}} $|$
+    \href{https://github.com/Maikoandre}{\underline{github.com/Maikoandre}}
+\end{center}
+
+\section{Professional Summary}
+  \textbf{}{Systems Analysis and Development student focusing on Data Analysis and Business Intelligence. 
+  Experienced in Python, SQL, Power BI, and process automation, working with data collection, processing, analysis, and visualization. 
+  Development of dashboards, automated reports, exploratory data analysis (EDA), and AI-powered solutions for generating insights. 
+  Knowledge of Pandas, data modeling, ETL, and data-driven application development. 
+  Seeking internship opportunities in Data Analysis, BI, or Data Engineering.
+}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, SQL, DAX} \\
+     \textbf{Tools}{: Power BI, Excel, N8N, MySQL, PostgreSQL} \\
+     \textbf{Libraries}{: Pandas, Agno, Matplotlib, Seaborn, Streamlit, Plotly, Reportlab}
+    }}
+ \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart{}
+  \resumeSubheading{Instituto Federal de Educação, Ciência e Tecnologia Baiano}{Guanambi, BA}
+      {Associate Degree in Systems Analysis and Development}{March 2024--Present}
+  \resumeSubHeadingListEnd{}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart{}
+
+    \resumeSubheading{Automation Assistant}{April 2026 --- May 2026}
+      {Prisma Publicidade}{Guanambi, BA}
+      \resumeItemListStart{}
+        \resumeItem{Developed an AI-powered automation to monitor, classify, and audit WhatsApp interactions between customers and the support team.}
+        \resumeItem{Developed an automated n8n workflow for medical services via WhatsApp, including smart routing and chat history persistence in a database.}
+      \resumeItemListEnd{}
+    \resumeSubheading{IT Intern}{October 2025 --- November 2025}
+      {Instituto Federal de Educação, Ciência e Tecnologia Baiano}{Guanambi, BA}
+      \resumeItemListStart{}
+        \resumeItem{Developed a modern management system for Specialized Educational Services (AEE), focused on high information density and usability for special education professionals.}
+        \resumeItem{Created integrated modules for managing teaching staff (teachers and specialists) and categorizing pedagogical materials.}
+        \resumeItem{Structured detailed student profiles, enabling the tracking of complete assistance history and academic data, with a scalable Django backend.}
+      \resumeItemListEnd{}
+  \resumeSubHeadingListEnd{}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart{}
+
+      \resumeProjectHeading{\textbf{SUS (SIH) Data Analysis} $|$ \emph{Python, Streamlit, Pandas, Plotly, Git}}{October 2025}
+          \resumeItemListStart{}
+            \resumeItem{Exploratory Data Analysis (EDA) project of hospital admissions from the Hospital Information System (SIH) of DataSUS, focusing on processing, cleaning, and extracting insights from raw \texttt{.csv} files.}
+            \resumeItem{Created analytical visualizations with Plotly, Seaborn, and Matplotlib, including analyses by sex, age range, race/color, ICD-10 chapters, and rankings of municipalities and hospitals (CNES) by volume, mortality, length of stay, and ICU usage.}
+          \resumeItemListEnd{}
+
+      \resumeProjectHeading{\textbf{Data Analysis Agent} $|$ \emph{Python, Agno, ChromaDB, LLMs, Gmail API, Reportlab}}{May 2026}
+      \resumeItemListStart{}
+        \resumeItem{Developed an autonomous agent for CSV dataset analysis, utilizing LLMs and a vector database (ChromaDB) for context extraction and insights via SQL aggregations.}
+        \resumeItem{Completely automated the results pipeline, including generating analytical PDF reports and automatically sending emails with attachments via the Gmail API.}
+      \resumeItemListEnd{}
+
+      % \resumeProjectHeading{\textbf{Customer Support Dashboard} $|$ \emph{Power BI, DAX, Power Query, Star Schema}}{January 2026}
+      %   \resumeItemListStart{}
+      %     \resumeItem{Developed Power BI dashboard to analyze customer service metrics, support team performance, and user profiles.}
+      %     \resumeItem{Built ETL process with Power Query (M Language) from Excel spreadsheets, implemented data modeling using Star Schema, and created DAX measures to calculate response times, average callback rates, and cancellation rates.}
+      %   \resumeItemListEnd{}
+
+      \resumeProjectHeading{\textbf{Corporate Sales Dashboard} $|$ \emph{Power BI, DAX, Power Query, Star Schema}}{January 2026}
+          \resumeItemListStart{}
+            \resumeItem{Developed a business intelligence dashboard in Power BI to monitor crucial KPIs such as total revenue, net profit, sales volume, and unique customer count.}
+            \resumeItem{Built visuals for temporal trend and monthly seasonality analysis, including performance rankings by brand and interactive sales mapping by continent.}
+          \resumeItemListEnd{}
+
+    \resumeSubHeadingListEnd{}
+
+
+\begin{comment}
+\end{comment}
+
+
+
+\end{document}
